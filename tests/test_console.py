@@ -73,7 +73,7 @@ class TestHBNBCommand(unittest.TestCase):
 
     def test_emptyline(self):
         """Test empty line input."""
-        
+
         with patch("sys.stdout", new=StringIO()) as f:
             self.HBNB.onecmd("\n")
             self.assertEqual("", f.getvalue())
@@ -304,7 +304,7 @@ class TestHBNBCommand(unittest.TestCase):
     @unittest.skipIf(type(models.storage) == DBStorage, "Testing DBStorage")
     def test_update(self):
         """Test alternate destroy command inpout"""
-        
+
         with patch('sys.stdout', new=StringIO()) as f:
             self.HBNB.onecmd("sldkfjsl.update()")
             self.assertEqual(
