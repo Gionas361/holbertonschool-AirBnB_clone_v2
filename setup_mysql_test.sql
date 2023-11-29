@@ -13,6 +13,6 @@ GRANT ALL PRIVILEGES
    TO hbnb_test@localhost
    IDENTIFIED BY 'hbnb_test_pwd';
 GRANT SELECT
-   ON `performance_schema`.*
+   ON performance_schema.*
    TO hbnb_test@localhost
-   IDENTIFIED BY 'hbnb_test_pwd';
+FLUSH PRIVILEGES;
