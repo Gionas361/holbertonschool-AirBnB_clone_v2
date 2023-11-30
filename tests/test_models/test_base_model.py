@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 """Defines unnittests for models/base_model.py."""
 import os
+import pep8
 import unittest
 from datetime import datetime
 from models.base_model import BaseModel
