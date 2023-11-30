@@ -1,5 +1,6 @@
 #!/usr/bin/python3
 """Defines unnittests for models/amenity.py."""
+import pep8
 import os
 import models
 import MySQLdb

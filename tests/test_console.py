@@ -1,5 +1,6 @@
 #!/usr/bin/python3
 """Defines unittests for console.py."""
+import pep8
 import os
 import unittest
 import models
