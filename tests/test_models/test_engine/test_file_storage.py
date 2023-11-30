@@ -2,7 +2,6 @@
 """Defines unnittests for models/engine/file_storage.py."""
 import os
 import json
-import pep8
 import unittest
 from datetime import datetime
 from models.base_model import BaseModel

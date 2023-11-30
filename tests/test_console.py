@@ -1,7 +1,6 @@
 #!/usr/bin/python3
 """Defines unittests for console.py."""
 import os
-import pep8
 import unittest
 import models
 from unittest.mock import patch
